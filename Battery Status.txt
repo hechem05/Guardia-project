@@ -1,0 +1,15 @@
+Battery Status:
+
+"What is the current battery level of the robot?"
+Patrol Status:
+
+"Is the robot currently patrolling?"
+Error Logs:
+
+"Are there any recent error logs for the robot?"
+Operational Status:
+
+"What is the robot doing right now?"
+Camera Status:
+
+"Is the camera functioning properly?"

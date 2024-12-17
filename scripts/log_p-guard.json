@@ -1,0 +1,327 @@
+[{
+    "_source": {
+        "id": "SSG8I5IBhVvEhKyth5DH",
+        "reference": "PGUARD R&D",
+        "connectionState": false,
+        "patrolState": "EmergencyStop",
+        "patrolStatus": "Going to point 4",
+        "guidanceState": "EmergencyStop",
+        "battery": 44,
+        "rtkCorrection": true,
+        "connectionStation": false,
+        "emergencyStop": false,
+        "light": false,
+        "charging": false,
+        "speed": 3,
+        "distanceTravelled": 0,
+        "opticalZoom": 0,
+        "domeOrientation": 0,
+        "workRounds": 0,
+        "workHours": 0,
+        "missions": [],
+        "buttonActionHandlers": [],
+        "detectionEvents": [],
+        "missionLogs": [],
+        "errorLogs": {
+            "ipStatus": [
+                {
+                "date": "2024-09-27T08:00:19.894Z",
+                "info":"camera Front & Thermique not work",
+                "ip":[
+                        {
+                        "Front":"192.168.1.108",
+                        "Thermique":"192.168.1.111"
+                        }
+                    ],
+                "Status": "False"
+            },
+            {
+                "date": "2024-09-27T10:00:19.894Z",
+                "info":"camera Rear & Optical & Thermique not work",
+                "ip":[
+                        {
+                        "Front":"192.168.1.108",
+                        "Optical":"192.168.1.108",
+                        "Thermique":"192.168.1.111"
+
+                        }
+                    ],
+                "Status": "False"
+            }
+        ],
+            "gnssStatuses": [
+                {
+                    "date": "2024-09-26T08:26:19.894Z",
+                    "INFO":"No Carte GPS connection",
+                    "numSV": "0",
+                    "fixType": "0",
+                    "diffMode": "false",
+                    "diffSource": "0",
+                    "carrierStatus": "0"
+                },
+                {
+                    "date": "2024-09-26T09:26:19.894Z",
+                    "INFO":"No Carte GPS connection",
+                    "numSV": "0",
+                    "fixType": "0",
+                    "diffMode": "false",
+                    "diffSource": "0",
+                    "carrierStatus": "0"
+                }
+            ],
+            "Lidar": [
+                {
+                    "date": "2024-09-26T08:26:19.894Z",
+                    "ip":"192.168.1.201",
+                    "info":"lidar not work",
+                    "Status": "False"
+                
+                }
+            ]
+
+        },
+        "warningLogs": {
+            "ipStatus": [
+                {
+                    "date": "2024-09-26T08:00:19.894Z",
+                    "ip":"192.168.1.111",
+                    "info":"camera Thermique not work",
+                    "Status": "False"
+                },
+                {
+                    "date": "2024-09-26T08:26:19.894Z",
+                    "ip":"192.168.1.109",
+                    "info":"camera Rear not work",
+                    "Status": "False"
+                },
+                {
+                    "date": "2024-09-26T09:30:19.894Z",
+                    "ip":"192.168.1.108",
+                    "info":"camera Front not work",
+                    "Status": "False"
+                },
+                {
+                    "date": "2024-09-26T09:15:19.894Z",
+                    "ip":"192.168.1.110",
+                    "info":"camera Optical not work",
+                    "Status": "False"
+                },
+    
+                {
+                    "date": "2024-09-26T10:30:19.894Z",
+                    "ip":"192.168.1.108",
+                    "info":"camera Front not work",
+                    "Status": "True"
+                },
+                {
+                    "date": "2024-09-26T10:15:19.894Z",
+                    "ip":"192.168.1.110",
+                    "info":"camera Optical not work",
+                    "Status": "True"
+                },
+                {
+                    "date": "2024-09-26T10:26:19.894Z",
+                    "ip":"192.168.1.109",
+                    "info":"camera Rear not work",
+                    "Status": "True"
+                },
+                {
+                    "date": "2024-09-26T10:00:19.894Z",
+                    "ip":"192.168.1.111",
+                    "info":"camera Thermique not work",
+                    "Status": "True"
+                }
+            ],
+            "gnssStatuses": [
+            {
+                "date": "2024-09-26T08:26:19.894Z",
+                "INFO":"No RTK correction",
+                "numSV": "26",
+                "fixType": "2",
+                "diffMode": "false",
+                "diffSource": "0",
+                "carrierStatus": "0"
+            },
+            {
+                
+                "date": "2024-09-26T09:26:19.894Z",
+                "INFO":"RTK correction",
+                "numSV": "26",
+                "fixType": "4",
+                "diffMode": "false",
+                "diffSource": "0",
+                "carrierStatus": "0"
+            }
+        ]
+        },
+        "connection": [
+            {
+                "value": false,
+                "date": "2024-09-24T11:13:31.002Z"
+            },
+            {
+                "value": true,
+                "date": "2024-09-24T11:13:35.037Z"
+            }
+        ]
+    }
+},
+{
+    "_source": {
+        "id": "SSG8I5IBhVvEhKyth5DH",
+        "reference": "PGUARD R&D",
+        "connectionState": false,
+        "patrolState": "EmergencyStop",
+        "patrolStatus": "Stopped at point 4",
+        "guidanceState": "EmergencyStop",
+        "battery": 44,
+        "rtkCorrection": true,
+        "connectionStation": false,
+        "emergencyStop": true,
+        "light": false,
+        "charging": false,
+        "speed": 0,
+        "distanceTravelled": 50,
+        "opticalZoom": 0,
+        "domeOrientation": 0,
+        "workRounds": 0,
+        "workHours": 5,
+        "missions": [],
+        "buttonActionHandlers": [],
+        "detectionEvents": [],
+        "missionLogs": [],
+        "errorLogs": {
+            "ipStatus": [
+                {
+                    "date": "2024-09-27T08:00:19.894Z",
+                    "info": "Front & Thermique cameras not working",
+                    "ip": {
+                        "Front": "192.168.1.108",
+                        "Thermique": "192.168.1.111"
+                    },
+                    "Status": "False"
+                },
+                {
+                    "date": "2024-09-27T10:00:19.894Z",
+                    "info": "Rear, Optical, and Thermique cameras not working",
+                    "ip": {
+                        "Rear": "192.168.1.109",
+                        "Optical": "192.168.1.110",
+                        "Thermique": "192.168.1.111"
+                    },
+                    "Status": "False"
+                }
+            ],
+            "gnssStatuses": [
+                {
+                    "date": "2024-09-26T08:26:19.894Z",
+                    "INFO": "No GPS connection",
+                    "numSV": "0",
+                    "fixType": "0",
+                    "diffMode": "false",
+                    "diffSource": "0",
+                    "carrierStatus": "0"
+                },
+                {
+                    "date": "2024-09-26T09:26:19.894Z",
+                    "INFO": "No GPS connection",
+                    "numSV": "0",
+                    "fixType": "0",
+                    "diffMode": "false",
+                    "diffSource": "0",
+                    "carrierStatus": "0"
+                }
+            ],
+            "Lidar": [
+                {
+                    "date": "2024-09-26T08:26:19.894Z",
+                    "ip": "192.168.1.201",
+                    "info": "Lidar not working",
+                    "Status": "False"
+                }
+            ]
+        },
+        "warningLogs": {
+            "ipStatus": [
+                {
+                    "date": "2024-09-26T08:00:19.894Z",
+                    "ip": "192.168.1.111",
+                    "info": "Thermique camera not working",
+                    "Status": "False"
+                },
+                {
+                    "date": "2024-09-26T08:26:19.894Z",
+                    "ip": "192.168.1.109",
+                    "info": "Rear camera not working",
+                    "Status": "False"
+                },
+                {
+                    "date": "2024-09-26T09:30:19.894Z",
+                    "ip": "192.168.1.108",
+                    "info": "Front camera not working",
+                    "Status": "False"
+                },
+                {
+                    "date": "2024-09-26T09:15:19.894Z",
+                    "ip": "192.168.1.110",
+                    "info": "Optical camera not working",
+                    "Status": "False"
+                },
+                {
+                    "date": "2024-09-26T10:30:19.894Z",
+                    "ip": "192.168.1.108",
+                    "info": "Front camera working",
+                    "Status": "True"
+                },
+                {
+                    "date": "2024-09-26T10:15:19.894Z",
+                    "ip": "192.168.1.110",
+                    "info": "Optical camera working",
+                    "Status": "True"
+                },
+                {
+                    "date": "2024-09-26T10:26:19.894Z",
+                    "ip": "192.168.1.109",
+                    "info": "Rear camera working",
+                    "Status": "True"
+                },
+                {
+                    "date": "2024-09-26T10:00:19.894Z",
+                    "ip": "192.168.1.111",
+                    "info": "Thermique camera working",
+                    "Status": "True"
+                }
+            ],
+            "gnssStatuses": [
+                {
+                    "date": "2024-09-26T08:26:19.894Z",
+                    "INFO": "No RTK correction",
+                    "numSV": "26",
+                    "fixType": "2",
+                    "diffMode": "false",
+                    "diffSource": "0",
+                    "carrierStatus": "0"
+                },
+                {
+                    "date": "2024-09-26T09:26:19.894Z",
+                    "INFO": "RTK correction",
+                    "numSV": "26",
+                    "fixType": "4",
+                    "diffMode": "true",
+                    "diffSource": "1",
+                    "carrierStatus": "1"
+                }
+            ]
+        },
+        "connection": [
+            {
+                "value": false,
+                "date": "2024-09-24T11:13:31.002Z"
+            },
+            {
+                "value": true,
+                "date": "2024-09-24T11:13:35.037Z"
+            }
+        ]
+    }
+}]
